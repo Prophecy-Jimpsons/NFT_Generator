@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ai-app:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - NGROK_AUTHTOKEN=2rb06Bumq2ylL3ZCU1VzkQKA09o_7X1iMw3bxS3kxQyf2DAJB
